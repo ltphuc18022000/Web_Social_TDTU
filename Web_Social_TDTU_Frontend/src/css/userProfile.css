@@ -1,0 +1,85 @@
+.send-friend-request {
+    margin-right: 10px
+}
+
+.btn-dot {
+
+    background-color: rgba(201, 198, 198, 0.192);
+    position: absolute;
+    left: 90%;
+    border-radius: 20%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+}
+
+.btn-dot:hover {
+    background-color: rgba(167, 163, 163, 0.26);
+}
+
+.form-change-password {
+    background-color: white;
+    border-radius: 8px;
+    padding: 8px;
+    width: 360px;
+    box-shadow: 0 0 32px hsl(24, 78%, 65%);
+}
+
+
+.form-change-password .form-color {
+    color: rgb(228, 153, 103);
+}
+
+.form-change-password>form>input:focus {
+    outline: none;
+}
+.profile-header{
+    width: 100%;
+    border: none;
+    padding-top: 30px;
+}
+.image-background-profile{
+    width: 80vw;
+    height: 50vh;
+    
+}
+.background-profile--position{
+    width: 100%;
+}
+.avatar-img{
+    width: 200px;
+    top: 10;
+}
+.avatar-content-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+@media only screen and (max-width: 1080px){
+    .avatar-content-profile{
+        display: block;
+        align-items: center;
+    }
+    .image-background-profile{
+        width: 100vw;
+        height: 30vh;
+        
+    }
+}
+.container-tab-body{
+    background-color: #dadae3;
+    
+}
+.tab-bar-post-user{
+    padding: 0 10px ;
+}
+/* .background-profile--position{
+    position: absolute;
+}
+.image-avatar--position{
+    position: relative;
+    top: 30;
+    left: 10;
+} */

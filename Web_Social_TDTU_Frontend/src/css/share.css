@@ -1,0 +1,86 @@
+.posted-container{
+    width: 30vw;
+    margin-top: 10px;
+    border: 5px solid #fccb90;
+    height: 40vh;
+    overflow-y: scroll;
+  
+}
+.modal-post-header-custom{
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    padding: 2px 5px;
+    line-height: 20px;
+    right: -30px;
+    top: -30px;
+    width: fit-content;
+}
+.posted-container::-webkit-scrollbar
+{
+   width: 0px;
+  background-color: #F5F5F5;
+}
+.header-posted{
+    width: 100%;
+    /* background: linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1));
+    background: -webkit-linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1)); */
+}
+.modal-share-container{
+    min-width: 60px;
+    max-height: 90vh;
+    padding: 20px;
+}
+@media only screen and (max-width: 720px) {
+    .modal-share-container{
+        width: 80vw;
+        
+    }
+
+    .posted-container{
+        width: 65vw;
+        height: 50vh;
+        overflow-y: scroll;
+
+    
+    }
+    .posted-container::-webkit-scrollbar
+    {
+	   width: 0px;
+	  background-color: #F5F5F5;
+    }
+    
+    .img-posted{
+        width: 65vw !important;
+    }
+
+}
+.posted-image{
+    max-width: fit-content;
+}
+
+.info-user-posted{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name-posted-content{
+    display: flex;
+    flex-direction: column;
+}
+.text-posted{
+    padding: 20px;
+}
+.modal-body-custom{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.posted-image{
+    max-width: fit-content;
+}
+.img-posted{
+    width: 35vw;
+}

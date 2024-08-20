@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.border{
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.content {
+    padding: 0 10px 0 10px;
+    font-size: 22;
+    font-weight: 700;
+
+}
+@media only screen and (max-width: 1080px) {
+    .img-logo-tdtu{
+        display: none;
+
+    }
+}
+.img-logo-tdtu{
+    margin: 10px;
+    width: 100px;
+}

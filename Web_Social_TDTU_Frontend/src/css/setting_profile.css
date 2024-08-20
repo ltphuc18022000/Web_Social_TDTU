@@ -1,0 +1,70 @@
+.bg-tab-setting-custom{
+    background: linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1));
+    background: -webkit-linear-gradient(to bottom right, rgba(252, 203, 144, 1), rgba(213, 126, 235, 1));
+}
+.tab-content-left{
+    height: 50%;
+    border-radius: 10px;
+
+}
+
+.content-left{
+    /* display: flex; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    /* flex-direction: column; */
+    /* width: 100%; */
+    padding: 20px;
+}
+.btn-custom:focus{
+    font-weight: bolder;
+    outline: none;
+}
+
+.btn-custom:active{
+    border: 1px solid #fccb90;
+    font-weight: bolder;
+}
+.btn-custom:hover{
+   font-weight: bolder;
+}
+.content-left{
+    height: 70vh;
+    overflow-y: scroll;
+    padding: 0;
+}
+.content-right{
+    max-height: 67vh;
+}
+.content-left::-webkit-scrollbar{
+    width: 15px;
+}
+.bg-group-custom{
+    margin: 10px 0 10px 0;
+    background: rgba(24, 24, 16, .2);
+    border-radius: 2em;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}
+.img-upload{
+    height: 80%;
+    width: 100%;
+    padding: 10px;
+    object-fit: fill;
+}
+.img-bg-upload{
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    object-fit: cover;
+}
+.bg-tab-left-setting-custom{
+    background: #fccb90;
+    backdrop-filter: blur(15px);
+    border: 2px solid rgba(255, 255, 255, 0.05);
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+}

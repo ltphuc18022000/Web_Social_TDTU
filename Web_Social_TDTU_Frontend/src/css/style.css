@@ -1,0 +1,26 @@
+.front_text_normal{
+    font-size: 16;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+.front_text_title{
+    font-size: 25;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.front_text_white{
+    color: #ffff;
+    font-size: 16;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+.front_text_white_w4{
+    color: #ffff;
+    font-size: 16;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.btn-post-custom{
+    background: #fccb90;
+    border: 2px solid rgba(255, 89, 0, 0.998);
+}
